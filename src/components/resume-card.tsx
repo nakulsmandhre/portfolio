@@ -29,20 +29,14 @@ export const ResumeCard = ({
   period,
   description,
 }: ResumeCardProps) => {
-  const [isExpanded, setIsExpanded] = React.useState(false);
-
-  const handleClick = (e: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
-    if (description) {
-      e.preventDefault();
-      setIsExpanded(!isExpanded);
-    }
-  };
+  const isExpanded = true;
 
   return (
     <Link
       href={href || "#"}
       className="block cursor-pointer"
-      onClick={handleClick}
+      target={href ? "_blank" : undefined}
+      rel={href ? "noopener noreferrer" : undefined}
     >
       <Card className="flex">
         <div className="flex-none">

@@ -11,6 +11,21 @@ import Image from "next/image";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
+// Helper to extract YouTube video ID and generate animated thumbnail URL
+function getYouTubeThumbnail(videoUrl: string): string | null {
+  const patterns = [
+    /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/embed\/)([a-zA-Z0-9_-]{11})/,
+  ];
+  for (const pattern of patterns) {
+    const match = videoUrl.match(pattern);
+    if (match) {
+      // Use maxresdefault for high quality, falls back to hqdefault
+      return `https://img.youtube.com/vi/${match[1]}/hqdefault.jpg`;
+    }
+  }
+  return null;
+}
+
 interface Props {
   title: string;
   href?: string;
@@ -40,6 +55,10 @@ export function ProjectCard({
   links,
   className,
 }: Props) {
+  // Check if video is a YouTube URL and get thumbnail
+  const youTubeThumbnail = video ? getYouTubeThumbnail(video) : null;
+  const isYouTubeVideo = youTubeThumbnail !== null;
+
   return (
     <Card
       className={
@@ -50,7 +69,7 @@ export function ProjectCard({
         href={href || "#"}
         className={cn("block cursor-pointer", className)}
       >
-        {video && (
+        {video && !isYouTubeVideo && (
           <video
             src={video}
             autoPlay
@@ -60,7 +79,25 @@ export function ProjectCard({
             className="pointer-events-none mx-auto h-40 w-full object-cover object-top" // needed because random black line at bottom of video
           />
         )}
-        {image && (
+        {isYouTubeVideo && (
+          <div className="relative h-40 w-full overflow-hidden">
+            <Image
+              src={youTubeThumbnail}
+              alt={title}
+              width={500}
+              height={300}
+              className="h-40 w-full object-cover object-top transition-transform duration-300 hover:scale-105"
+            />
+            <div className="absolute inset-0 flex items-center justify-center bg-black/20 hover:bg-black/30 transition-colors">
+              <div className="w-12 h-12 rounded-full bg-red-600 flex items-center justify-center">
+                <svg className="w-5 h-5 text-white ml-1" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M8 5v14l11-7z"/>
+                </svg>
+              </div>
+            </div>
+          </div>
+        )}
+        {image && !video && (
           <Image
             src={image}
             alt={title}

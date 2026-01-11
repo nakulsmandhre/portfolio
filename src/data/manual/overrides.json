@@ -1,0 +1,226 @@
+﻿{
+  "_README": "This file shows EXACTLY what's on your site. Just edit the text values. Save file = site updates.",
+
+  "identity": {
+    "_help": "CURRENTLY DISPLAYED - Edit any value below",
+    "fullName": "Nakul S Mandhre",
+    "headline": "Strategy Consultant turned AI Researcher/Builder. I love building things and helping people. Very active on X.",
+    "location": "Atlanta, Georgia, United States",
+    "about": "I enjoy designing and scaling digital strategies that enable businesses to transform with Agentic AI. I'm passionate about connecting analytics, automation, and human creativity to solve complex problems and turn data into a strategic advantage.",
+    "profilePhoto": "/me.png",
+    "initials": "NM",
+    "url": "https://nakulmandhre.com",
+    "locationLink": "https://www.google.com/maps/place/atlanta"
+  },
+
+  "socials": {
+    "_help": "CURRENTLY DISPLAYED - Empty string = hidden from navbar",
+    "linkedin": "https://www.linkedin.com/in/nakulmandhre",
+    "email": "mandhrenakul8797@gmail.com",
+    "github": "https://github.com/nakulsmandhre",
+    "x": "https://x.com/nakulmandhre",
+    "youtube": ""
+  },
+
+  "experience": [
+    {
+      "_help": "Job 1 - Add logo: /public/logos/emory.png",
+      "company": "Emory University",
+      "title": "MarComm Fellow/Forward Deployed Engineer",
+      "startDate": "2025",
+      "endDate": "Present",
+      "location": "Remote",
+      "description": "Building AI-powered solutions for university staff & faculty.",
+      "logoUrl": "/logos/emory.png",
+      "companyUrl": "https://www.emory.edu/home/",
+      "employmentType": "Part-time"
+    },
+    {
+      "_help": "Job 2 - Add logo: /public/logos/slingshot.png",
+      "company": "SlingShot Partners",
+      "title": "Managing Partner/Founder",
+      "startDate": "2025",
+      "endDate": "Present",
+      "location": "Remote",
+      "description": "Building AI-powered solutions for SMBs.",
+      "logoUrl": "/logos/slingshot.png",
+      "companyUrl": "https://www.slingshotuspartners.com",
+      "employmentType": "Part-time"
+    },
+    {
+      "_help": "Job 3 - Add logo: /public/logos/draup.png",
+      "company": "Draup",
+      "title": "Senior Consultant - Product Strategist",
+      "startDate": "2020",
+      "endDate": "2025",
+      "location": "Bangalore, India",
+      "description": "Led complex consulting engagements and AI-driven product initiatives.",
+      "logoUrl": "/logos/draup.png",
+      "companyUrl": "https://draup.com",
+      "employmentType": "Full-time"
+    },
+    {
+      "_help": "Job 4 - Add logo: /public/logos/mnm.png",
+      "company": "MarketsandMarkets",
+      "title": "Associate",
+      "startDate": "2019",
+      "endDate": "2020",
+      "location": "Pune,India",
+      "description": "Conducted market research and competitive analysis.",
+      "logoUrl": "/logos/mnm.png",
+      "companyUrl": "https://marketsandmarkets.com",
+      "employmentType": "Full-time"
+    },
+    {
+      "_help": "Job 5 - Add logo: /public/logos/glow.png",
+      "company": "Glow",
+      "title": "Co-founder",
+      "startDate": "2018",
+      "endDate": "2020",
+      "location": "Chennai,India",
+      "description": "Co-founded a premium shoe care brand while studying in the college.",
+      "logoUrl": "/logos/glow.png",
+      "employmentType": "Part-time"
+    },
+    {
+      "_help": "Job 6 - Add logo: /public/logos/decathlon.png",
+      "company": "Decathlon",
+      "title": "Sales Manager",
+      "startDate": "2017",
+      "endDate": "2019",
+      "location": "Chennai,India",
+      "description": "Worked part-time at Decathlon sports retail while studying in the college.",
+      "logoUrl": "/logos/decathlon.png",
+      "employmentType": "Part-time"
+    }
+  ],
+
+  "education": [
+    {
+      "_help": "Education 1 - Add logo: /public/logos/emory.png",
+      "school": "Emory University - Goizueta Business School",
+      "degree": "Master of Business Administration - MBA",
+      "fieldOfStudy": "Technology Management",
+      "startDate": "2025",
+      "endDate": "2026",
+      "logoUrl": "/logos/emory.png",
+      "href": "https://goizueta.emory.edu"
+    },
+    {
+      "_help": "Education 2 - Add logo: /public/logos/stanford.png",
+      "school": "Stanford University",
+      "degree": "Professional Certificate",
+      "fieldOfStudy": "Machine Learning - Statistics",
+      "startDate": "2023",
+      "endDate": "2024",
+      "logoUrl": "/logos/stanford.png",
+      "href": "https://stanford.edu"
+    },
+    {
+      "_help": "Education 3 - Add logo: /public/logos/hindustan.png",
+      "school": "Hindustan University",
+      "degree": "Bachelor of Technology - BTech",
+      "fieldOfStudy": "Mechatronics Engineering",
+      "startDate": "2015",
+      "endDate": "2019",
+      "logoUrl": "/logos/hindustan.png",
+      "href": "https://hindustanuniv.ac.in"
+    }
+  ],
+
+  "skills": [
+    "Python",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "LangChain",
+    "RAG",
+    "LLM",
+    "Small Language Models",
+    "Generative AI",
+    "Prompt Engineering",
+    "AWS",
+    "Azure OpenAI",
+    "Machine Learning",
+    "Data Science",
+    "NLP",
+    "GCP",
+    "Docker",
+    "SQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Git",
+    "Agile",
+    "Product Management",
+    "Data Analytics",
+    "Process Optimization",
+    "Strategic Planning",
+    "GTM Strategy"
+  ],
+
+  "projects": [
+    {
+      "_help": "PROJECT 1 - With YouTube video. Remove TODO: to show. Add image: /public/projects/project1.png",
+      "title": "AI Layer on Google Maps dataset",
+      "description": "Google Maps sits on a goldmine of real-world user behavior data — it could evolve into a personalized automated travel assistant so good that your life outside home depends on it. Imagine simply asking: “What should I do next?” Built a quick prototype called NextSpot, exploring this idea with the help of Google Maps API and Vertex AI LLM..",
+      "dates": "2025",
+      "href": "https://youtu.be/65OyPtXpX1M",
+      "video": "https://youtu.be/65OyPtXpX1M",
+      "image": "",
+      "technologies": ["Python", "Vertex AI", "GCP", "Next.js"],
+      "active": true,
+      "links": [
+        { "type": "LinkedIn", "href": "https://www.linkedin.com/posts/nakulmandhre_product-ai-googlemaps-activity-7407834607506792448-Fzrz?utm_source=share&utm_medium=member_desktop&rcm=ACoAABiP71sBNS6R4NGuG6OYV0PIbb6Lw79vUqU" },
+        { "type": "YouTube", "href": "https://youtu.be/65OyPtXpX1M" }
+      ]
+    },
+    {
+      "_help": "PROJECT 2 - With static image. Remove TODO: to show. Add image: /public/projects/project2.png",
+      "title": "Small Language Model using AWS Bedrock",
+      "description": "What if your business reports could answer: “What did you get done this week?”",
+      "dates": "2025",
+      "href": "https://youtu.be/iuKiFE-NgYY",
+      "video": "https://youtu.be/iuKiFE-NgYY",
+      "image": "/projects/slmaws.png",
+      "technologies": ["Python", "React", "AWS"],
+      "active": true,
+      "links": [
+        { "type": "LinkedIn", "href": "https://www.linkedin.com/posts/nakulmandhre_innovation-entrepreneurship-management-activity-7406279359185166336-W3PF?utm_source=share&utm_medium=member_desktop&rcm=ACoAABiP71sBNS6R4NGuG6OYV0PIbb6Lw79vUqU" },
+        { "type": "YouTube", "href": "https://youtu.be/iuKiFE-NgYY" }
+      ]
+    },
+    {
+      "_help": "PROJECT 3 - No media. Remove TODO: to show.",
+      "title": "AI Benchmarks testing agent using Datadog",
+      "description": "Everyone’s racing to ship agents. The differentiator will be operating them safely. After watching a discussion on why we need new AI benchmarks, Built LLM Reliability & Security Sentinel: chaos tests agent failure modes (latency, errors, token/cost spikes, security), and Datadog auto-creates a Case/Incident. This kind of telemetry is how we’ll build production benchmarks for agent deployments.",
+      "dates": "2025",
+      "href": "https://youtu.be/XZMadw7dZRs",
+      "video": "https://youtu.be/XZMadw7dZRs",
+      "image": "/projects/aibenchmarks.png",
+      "technologies": ["React", "Node.js", "PostgreSQL"],
+      "active": true,
+      "links": [
+        { "type": "LinkedIn", "href": "https://www.linkedin.com/posts/nakulmandhre_product-ai-innovation-activity-7411458529334734851-vtQp?utm_source=share&utm_medium=member_desktop&rcm=ACoAABiP71sBNS6R4NGuG6OYV0PIbb6Lw79vUqU" },
+        { "type": "YouTube", "href": "https://youtu.be/XZMadw7dZRs" }
+      ]
+    }
+  ],
+
+  "hackathons": [
+    {
+      "_help": "HACKATHON 1 - Remove TODO: to show. Add image: /public/hackathons/hack1.png",
+      "title": "AI Partner Catalyst: Accelerate Innovation by Google Cloud and Datadog",
+      "dates": "2025",
+      "location": "Remote",
+      "description": "AI Benchmarks testing agent using Datadog to perform chaos testing on LLM-based agents and auto-create incidents in Datadog for any failures detected.",
+      "image": "/hackathons/hack1.png",
+      "win": "Waiting for results",
+      "mlh": "",
+      "links": [
+        { "title": "GitHub", "href": "https://github.com/nakulsmandhre/llm-reliability-security-sentinel" },
+        { "title": "LinkedIn Post", "href": "https://www.linkedin.com/posts/nakulmandhre_product-ai-innovation-activity-7411458529334734851-vtQp?utm_source=share&utm_medium=member_desktop&rcm=ACoAABiP71sBNS6R4NGuG6OYV0PIbb6Lw79vUqU" }
+      ]
+    }
+  ]
+}

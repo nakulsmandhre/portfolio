@@ -1,0 +1,117 @@
+﻿{
+  "identity": {
+    "fullName": "Nakul S Mandhre",
+    "headline": "Emory Tech MBA 2026 | Forward Deployed Engineer | RAG Copilots  LLM Evals  Process Optimization",
+    "location": "Atlanta, Georgia, United States",
+    "about": "I enjoy designing and scaling digital strategies that enable businesses to transform with Agentic AI. I'm passionate about connecting analytics, automation, and human creativity to solve complex problems and turn data into a strategic advantage.",
+    "profilePhoto": "/me.png"
+  },
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/nakulmandhre",
+    "email": "",
+    "github": "",
+    "twitter": "",
+    "website": ""
+  },
+  "experience": [
+    {
+      "company": "Candescent",
+      "title": "Forward Deployed Engineer",
+      "startDate": "2024",
+      "endDate": "Present",
+      "location": "Remote",
+      "description": "Building AI-powered solutions for enterprise clients.",
+      "logoUrl": "https://logo.clearbit.com/candescent.com",
+      "companyUrl": "https://candescent.com",
+      "employmentType": "Full-time"
+    },
+    {
+      "company": "Draup",
+      "title": "Product Manager / Data Analyst",
+      "startDate": "2021",
+      "endDate": "2024",
+      "location": "India",
+      "description": "Led product development and data analytics initiatives.",
+      "logoUrl": "https://logo.clearbit.com/draup.com",
+      "companyUrl": "https://draup.com",
+      "employmentType": "Full-time"
+    },
+    {
+      "company": "MarketsandMarkets",
+      "title": "Research Analyst",
+      "startDate": "2019",
+      "endDate": "2021",
+      "location": "India",
+      "description": "Conducted market research and competitive analysis.",
+      "logoUrl": "https://logo.clearbit.com/marketsandmarkets.com",
+      "companyUrl": "https://marketsandmarkets.com",
+      "employmentType": "Full-time"
+    },
+    {
+      "company": "Deloitte",
+      "title": "Consultant",
+      "startDate": "2017",
+      "endDate": "2019",
+      "location": "India",
+      "description": "Provided consulting services to enterprise clients.",
+      "logoUrl": "https://logo.clearbit.com/deloitte.com",
+      "companyUrl": "https://deloitte.com",
+      "employmentType": "Full-time"
+    }
+  ],
+  "education": [
+    {
+      "school": "Emory University - Goizueta Business School",
+      "degree": "Master of Business Administration - MBA",
+      "fieldOfStudy": "Technology Management",
+      "startDate": "2025",
+      "endDate": "2026",
+      "logoUrl": "https://logo.clearbit.com/emory.edu",
+      "href": "https://goizueta.emory.edu"
+    },
+    {
+      "school": "Stanford University",
+      "degree": "Professional Certificate",
+      "fieldOfStudy": "Machine Learning",
+      "startDate": "2023",
+      "endDate": "2024",
+      "logoUrl": "https://logo.clearbit.com/stanford.edu",
+      "href": "https://stanford.edu"
+    },
+    {
+      "school": "Hindustan University",
+      "degree": "Bachelor of Technology - BTech",
+      "fieldOfStudy": "Electronics and Communication Engineering",
+      "startDate": "2013",
+      "endDate": "2017",
+      "logoUrl": "https://logo.clearbit.com/hindustanuniv.ac.in",
+      "href": "https://hindustanuniv.ac.in"
+    }
+  ],
+  "skills": [
+    "Python",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Node.js",
+    "LangChain",
+    "RAG",
+    "LLM",
+    "OpenAI",
+    "Azure",
+    "AWS",
+    "Docker",
+    "SQL",
+    "PostgreSQL",
+    "MongoDB",
+    "Git",
+    "Agile",
+    "Product Management",
+    "Data Analytics",
+    "Process Optimization"
+  ],
+  "projects": [],
+  "certifications": [],
+  "extractedAt": "2026-01-10T01:44:53.801Z",
+  "sourceFile": "saved_resource(5).html"
+}
