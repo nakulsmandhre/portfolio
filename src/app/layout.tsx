@@ -2,6 +2,8 @@ import Navbar from "@/components/navbar";
 import { ThemeProvider } from "@/components/theme-provider";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { BackgroundVideo } from "@/components/background-video";
+import { RocketCursor } from "@/components/rocket-cursor";
+import { CursorTrail } from "@/components/cursor-trail";
 import { DATA } from "@/data/resume";
 import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
@@ -64,7 +66,9 @@ export default function RootLayout({
       >
         <ThemeProvider attribute="class" defaultTheme="dark">
           <TooltipProvider delayDuration={0}>
-            <BackgroundVideo 
+            <RocketCursor />
+            <CursorTrail />
+            <BackgroundVideo
               src="/backgrounds/bg.mp4"
               opacity={0.7}
             />
