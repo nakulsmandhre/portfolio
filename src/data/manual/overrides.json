@@ -7,7 +7,7 @@
     "headline": "Strategy Consultant turned AI Researcher/Builder. I love building things and helping people. Very active on X.",
     "location": "Atlanta, Georgia, United States",
     "about": "I enjoy designing and scaling digital strategies that enable businesses to transform with Agentic AI. I'm passionate about connecting analytics, automation, and human creativity to solve complex problems and turn data into a strategic advantage.",
-    "profilePhoto": "/me.png",
+    "profilePhoto": "/me.PNG",
     "initials": "NM",
     "url": "https://nakulmandhre.com",
     "locationLink": "https://www.google.com/maps/place/atlanta"
@@ -203,6 +203,21 @@
       "links": [
         { "type": "LinkedIn", "href": "https://www.linkedin.com/posts/nakulmandhre_product-ai-innovation-activity-7411458529334734851-vtQp?utm_source=share&utm_medium=member_desktop&rcm=ACoAABiP71sBNS6R4NGuG6OYV0PIbb6Lw79vUqU" },
         { "type": "YouTube", "href": "https://youtu.be/XZMadw7dZRs" }
+      ]
+    },
+    {
+      "_help": "PROJECT 4 - No media. Remove TODO: to show.",
+      "title": "Daily News with Personalized Summaries using Vertex AI",
+      "description": "Built a daily news newsletter service that curates top news articles and generates personalized summaries using Vertex AI. Users receive concise, relevant updates tailored to their interests, enhancing information consumption efficiency.",
+      "dates": "2026",
+      "href": "https://youtu.be/9M-9RdZiFWk",
+      "video": "https://youtu.be/9M-9RdZiFWk",
+      "image": "/projects/aibenchmarks.png",
+      "technologies": ["GCP", "Vertex AI", "Node.js", "TypeScript"],
+      "active": true,
+      "links": [
+        { "type": "LinkedIn", "href": "https://www.linkedin.com/posts/nakulmandhre_product-ai-google-activity-7422330132134154240-R1Hz?utm_source=share&utm_medium=member_desktop&rcm=ACoAABiP71sBNS6R4NGuG6OYV0PIbb6Lw79vUqU" },
+        { "type": "YouTube", "href": "https://youtu.be/9M-9RdZiFWk" }
       ]
     }
   ],
